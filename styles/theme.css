@@ -1,0 +1,367 @@
+@font-face {
+    font-family: "NanumMyeongjo";
+    src: url("../fonts/Nanum_Myeongjo/NanumMyeongjo-Regular.ttf");
+}
+
+html, body {
+    font-family: sans-serif;
+    font-weight: lighter;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    margin-top: 6px;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-left: 14px;
+}
+
+h2{
+    font-family: NanumMyeongjo;
+    color: #42454a;
+    font-size: 28px;
+}
+
+.image_flex h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h3{
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-bottom: 6px;
+}
+
+ul {
+    margin-top: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #787c80;
+}
+
+a:hover {
+    color: #42454a;
+}
+
+img {
+    width: 100%;
+}
+
+.eachimage_flex .text a{
+    margin-top: 50px;
+}
+
+.mainimg{
+    width: 100%;
+    height:100%;
+    opacity: 50%;
+}
+
+.mainlink {
+    display: block;
+    font-size: 34px;
+    font-family: NanumMyeongjo;
+    margin-left: 14px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    background: #787c80;
+}
+
+.text_overlay_one {
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.text_overlay_two {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image_flex {
+    display: flex;
+    flex-direction: row;
+    margin: 14px;
+}
+
+.eachimage_flex {
+    width: 50%;
+}
+
+.text {
+    margin-left: 14px;
+}
+
+.text_overlay_button {
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+.goto {
+    color: white;
+}
+.goto:hover {
+    color:#42454a;
+    background: white;
+    padding: 10px;
+}
+
+.gallery {
+    padding-left: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px 20px;
+    margin-left: 14px;
+    margin-right: 14px;
+}
+
+.gallery img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.upload_image_tags {
+    display: flex;
+    flex-direction: row;
+}
+
+.gallery_link {
+    margin-top: 20px;
+    margin-left:14px;
+    font-family: NanumMyeongjo;
+    font-weight: lighter;
+    font-size: 36px;
+}
+
+.filter {
+    margin-left:14px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.filter h3 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.upload_filter form {
+    display: flex;
+    margin-top: 12px;
+}
+
+.gallery_link a {
+    color: #787c80;
+}
+
+.gallery_link a:hover {
+    color:#42454a;
+}
+
+.blink {
+    margin: 14px;
+    color:#42454a;
+}
+
+.blink h2 {
+    font-weight: lighter;
+    font-size: 32px;
+    margin-bottom: 4px;
+    margin-left: 0px;
+}
+
+.blink p {
+    margin-top: 10px;
+}
+
+.feedback_msg {
+    color: red;
+    margin-left: 14px;
+}
+
+.feedback_msg_img {
+    color: red;
+}
+
+.tagsHeader {
+    font-size: 22px;
+}
+
+.tags {
+    font-size: 18px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 138px 1fr;
+    grid-gap:20px;
+    margin-left: 14px;
+    margin-bottom: 10px;
+}
+
+.uploadForm {
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    grid-gap:10px;
+    margin-left: 14px;
+    margin-bottom: 10px;
+    color:#444b54;
+}
+
+.uploadHeading {
+    margin: 14px;
+    font-size: 26px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color:#444b54;
+}
+
+.upload, .delete{
+    width: 210px;
+    border: none;
+    background: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 14px;
+    color: #444b54;
+}
+
+.deleteImage {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.deleteImage p {
+    margin-top:0px;
+}
+
+.deleteImage button {
+    float: right;
+}
+
+.icon {
+    border: none;
+    background: none;
+    width: 20px;
+    font-size: 16px;
+    border-radius: 50%;
+    padding: 0px;
+    vertical-align: center;
+    color: #787c80
+}
+
+.source, .deleteSource {
+    margin-left: 14px;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.source {
+    margin-top: 16px;
+}
+
+button img{
+    vertical-align: middle;
+}
+
+.upload img, .delete img {
+    width: 30px;
+}
+
+.upload:hover, .delete:hover{
+    background-color: #dfdfdf;
+    cursor: pointer;
+    border-width: 0cm;
+}
+
+.icon:hover {
+    background-color: #dfdfdf;
+    color: #42454a;
+    border-width: 0cm;
+    border-width: 0cm;
+    cursor: pointer;
+}
+
+
+.filter_submit {
+    color: #787c80;
+}
+
+.filter_submit:hover{
+    color: #42454a;
+    border-color: #42454a;
+    border-width: 0cm;
+    cursor: pointer;
+}
+
+.uploadForm input {
+    width: 200px;
+}
+
+label {
+    display: block;
+    grid-column: 1 / 2;
+    text-align: right;
+}
+
+select {
+    width: 140px;
+}
+
+button.delete {
+    grid-column: 2 / 3;
+    width: 40%;
+}
+
+button {
+    width: 70px;
+}
+
+.newTag {
+    width: 132px;
+}
+
+.goback {
+    margin-left: 180px;
+    margin-top: 30px;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+hr {
+    height: 0px;
+    border: none;
+    border-top: 0.6px solid #787c80;
+}
+
+footer {
+    font-family: NanumMyeongjo;
+    text-align: right;
+    margin-right: 14px;
+    color: #787c80;
+    margin-bottom: 50px;
+}
